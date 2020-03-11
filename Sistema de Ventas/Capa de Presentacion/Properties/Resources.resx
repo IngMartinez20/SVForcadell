@@ -118,16 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="_1button_click" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1button_click.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_1button" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="FORCADELL3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FORCADELL3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_1button_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1button_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FORCADELL3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FORCADELL3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="_1button_click" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1button_click.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FORCADELL1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FORCADELL1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FORCADELL4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FORCADELL4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imprentatoner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imprentatoner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

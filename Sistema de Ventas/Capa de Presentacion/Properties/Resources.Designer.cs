@@ -93,9 +93,39 @@ namespace Capa_de_Presentacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap FORCADELL1 {
+            get {
+                object obj = ResourceManager.GetObject("FORCADELL1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FORCADELL3 {
             get {
                 object obj = ResourceManager.GetObject("FORCADELL3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FORCADELL4 {
+            get {
+                object obj = ResourceManager.GetObject("FORCADELL4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imprentatoner {
+            get {
+                object obj = ResourceManager.GetObject("imprentatoner", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
