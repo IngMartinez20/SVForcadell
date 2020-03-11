@@ -49,11 +49,11 @@
             // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.label1.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label1.Dock = System.Windows.Forms.DockStyle.Top;
             this.label1.Font = new System.Drawing.Font("Monotype Corsiva", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
@@ -65,9 +65,9 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.label2.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.label2.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(549, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(56, 22);
@@ -87,9 +87,9 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.label3.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.label3.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(549, 49);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(50, 22);
@@ -129,6 +129,7 @@
             this.btnEmpleados.ForeColor = System.Drawing.Color.White;
             this.btnEmpleados.Location = new System.Drawing.Point(14, 115);
             this.btnEmpleados.Name = "btnEmpleados";
+            this.btnEmpleados.Padding = new System.Windows.Forms.Padding(7, 0, 0, 0);
             this.btnEmpleados.Size = new System.Drawing.Size(124, 40);
             this.btnEmpleados.TabIndex = 1;
             this.btnEmpleados.Text = "   &Empleados";
@@ -167,6 +168,7 @@
             this.btnUsuarios.ForeColor = System.Drawing.Color.White;
             this.btnUsuarios.Location = new System.Drawing.Point(14, 161);
             this.btnUsuarios.Name = "btnUsuarios";
+            this.btnUsuarios.Padding = new System.Windows.Forms.Padding(7, 0, 0, 0);
             this.btnUsuarios.Size = new System.Drawing.Size(124, 40);
             this.btnUsuarios.TabIndex = 0;
             this.btnUsuarios.Text = " &Usuarios";
@@ -182,6 +184,7 @@
             this.btnClientes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnClientes.Location = new System.Drawing.Point(14, 69);
             this.btnClientes.Name = "btnClientes";
+            this.btnClientes.Padding = new System.Windows.Forms.Padding(1, 0, 0, 0);
             this.btnClientes.Size = new System.Drawing.Size(135, 40);
             this.btnClientes.TabIndex = 0;
             this.btnClientes.Text = "&Clientes";
@@ -195,6 +198,7 @@
             this.btnProductos.ForeColor = System.Drawing.Color.White;
             this.btnProductos.Location = new System.Drawing.Point(14, 23);
             this.btnProductos.Name = "btnProductos";
+            this.btnProductos.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
             this.btnProductos.Size = new System.Drawing.Size(135, 40);
             this.btnProductos.TabIndex = 0;
             this.btnProductos.Text = "   &Productos";
@@ -204,7 +208,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.label4.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.label4.Font = new System.Drawing.Font("Monotype Corsiva", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(9, 7);
@@ -215,8 +219,9 @@
             // 
             // lblUsuario
             // 
-            this.lblUsuario.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.lblUsuario.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.lblUsuario.Font = new System.Drawing.Font("Monotype Corsiva", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsuario.ForeColor = System.Drawing.Color.White;
             this.lblUsuario.Location = new System.Drawing.Point(105, 7);
             this.lblUsuario.Name = "lblUsuario";
             this.lblUsuario.Size = new System.Drawing.Size(127, 17);
