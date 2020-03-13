@@ -158,23 +158,27 @@
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuardar.Location = new System.Drawing.Point(332, 89);
+            this.btnGuardar.BackColor = System.Drawing.Color.Ivory;
+            this.btnGuardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardar.ForeColor = System.Drawing.Color.Blue;
+            this.btnGuardar.Location = new System.Drawing.Point(332, 148);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(87, 27);
+            this.btnGuardar.Size = new System.Drawing.Size(87, 34);
             this.btnGuardar.TabIndex = 12;
             this.btnGuardar.Text = "&Grabar";
-            this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.UseVisualStyleBackColor = false;
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // btnCancelar
             // 
+            this.btnCancelar.BackgroundImage = global::Capa_de_Presentacion.Properties.Resources.salir;
+            this.btnCancelar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelar.Location = new System.Drawing.Point(332, 152);
+            this.btnCancelar.Location = new System.Drawing.Point(332, 207);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(87, 27);
+            this.btnCancelar.Size = new System.Drawing.Size(87, 31);
             this.btnCancelar.TabIndex = 13;
-            this.btnCancelar.Text = "&Salir";
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
@@ -199,12 +203,14 @@
             // 
             // btnCategoria
             // 
+            this.btnCategoria.BackColor = System.Drawing.Color.Ivory;
+            this.btnCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCategoria.Location = new System.Drawing.Point(223, 23);
             this.btnCategoria.Name = "btnCategoria";
             this.btnCategoria.Size = new System.Drawing.Size(87, 27);
             this.btnCategoria.TabIndex = 16;
             this.btnCategoria.Text = "&Categoria";
-            this.btnCategoria.UseVisualStyleBackColor = true;
+            this.btnCategoria.UseVisualStyleBackColor = false;
             this.btnCategoria.Click += new System.EventHandler(this.btnCategoria_Click);
             // 
             // IdC
@@ -228,6 +234,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.ClientSize = new System.Drawing.Size(434, 243);
             this.Controls.Add(this.txtIdP);
             this.Controls.Add(this.IdC);

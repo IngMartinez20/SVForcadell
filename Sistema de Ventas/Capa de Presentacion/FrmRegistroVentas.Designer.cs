@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -51,7 +51,6 @@
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.txtIgv = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.btnBusquedaProducto = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.txtCantidad = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
@@ -76,6 +75,7 @@
             this.btnRegistrarVenta = new System.Windows.Forms.Button();
             this.btnEliminarItem = new System.Windows.Forms.Button();
             this.txtIdProducto = new System.Windows.Forms.TextBox();
+            this.btnBusquedaProducto = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -137,7 +137,7 @@
             // 
             // lblTipo
             // 
-            this.lblTipo.BackColor = System.Drawing.Color.GreenYellow;
+            this.lblTipo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.lblTipo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblTipo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTipo.Location = new System.Drawing.Point(-1, 34);
@@ -314,24 +314,16 @@
             this.label12.TabIndex = 12;
             this.label12.Text = "I.G.V. :";
             // 
-            // btnBusquedaProducto
-            // 
-            this.btnBusquedaProducto.Location = new System.Drawing.Point(535, 23);
-            this.btnBusquedaProducto.Name = "btnBusquedaProducto";
-            this.btnBusquedaProducto.Size = new System.Drawing.Size(75, 23);
-            this.btnBusquedaProducto.TabIndex = 11;
-            this.btnBusquedaProducto.Text = "Buscar";
-            this.btnBusquedaProducto.UseVisualStyleBackColor = true;
-            this.btnBusquedaProducto.Click += new System.EventHandler(this.btnBusquedaProducto_Click);
-            // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(522, 55);
+            this.btnAgregar.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregar.Location = new System.Drawing.Point(535, 55);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(88, 30);
+            this.btnAgregar.Size = new System.Drawing.Size(75, 30);
             this.btnAgregar.TabIndex = 10;
             this.btnAgregar.Text = "&Agregar";
-            this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.UseVisualStyleBackColor = false;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // txtCantidad
@@ -471,9 +463,9 @@
             // 
             // Column4
             // 
-            dataGridViewCellStyle1.Format = "C2";
-            dataGridViewCellStyle1.NullValue = null;
-            this.Column4.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle5.Format = "C2";
+            dataGridViewCellStyle5.NullValue = null;
+            this.Column4.DefaultCellStyle = dataGridViewCellStyle5;
             this.Column4.HeaderText = "P. UNIT.";
             this.Column4.Name = "Column4";
             this.Column4.ReadOnly = true;
@@ -481,9 +473,9 @@
             // 
             // Column3
             // 
-            dataGridViewCellStyle2.Format = "C2";
-            dataGridViewCellStyle2.NullValue = null;
-            this.Column3.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle6.Format = "C2";
+            dataGridViewCellStyle6.NullValue = null;
+            this.Column3.DefaultCellStyle = dataGridViewCellStyle6;
             this.Column3.HeaderText = "IMPORTE";
             this.Column3.Name = "Column3";
             this.Column3.ReadOnly = true;
@@ -513,13 +505,14 @@
             // 
             // btnSalir
             // 
-            this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalir.Location = new System.Drawing.Point(562, 484);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(75, 25);
             this.btnSalir.TabIndex = 18;
             this.btnSalir.Text = "&Salir";
-            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.UseVisualStyleBackColor = false;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // btnRegistrarVenta
@@ -551,10 +544,23 @@
             this.txtIdProducto.Size = new System.Drawing.Size(51, 20);
             this.txtIdProducto.TabIndex = 21;
             // 
+            // btnBusquedaProducto
+            // 
+            this.btnBusquedaProducto.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnBusquedaProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBusquedaProducto.Location = new System.Drawing.Point(535, 23);
+            this.btnBusquedaProducto.Name = "btnBusquedaProducto";
+            this.btnBusquedaProducto.Size = new System.Drawing.Size(75, 23);
+            this.btnBusquedaProducto.TabIndex = 11;
+            this.btnBusquedaProducto.Text = "Buscar";
+            this.btnBusquedaProducto.UseVisualStyleBackColor = false;
+            this.btnBusquedaProducto.Click += new System.EventHandler(this.btnBusquedaProducto_Click);
+            // 
             // FrmRegistroVentas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightGray;
             this.ClientSize = new System.Drawing.Size(649, 515);
             this.Controls.Add(this.txtIdProducto);
             this.Controls.Add(this.btnEliminarItem);
@@ -569,10 +575,11 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
             this.Name = "FrmRegistroVentas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmRegistro de Ventas";
+            this.Text = "Registro de Ventas";
             this.Activated += new System.EventHandler(this.FrmVentas_Activated);
             this.Load += new System.EventHandler(this.FrmVentas_Load);
             this.panel1.ResumeLayout(false);

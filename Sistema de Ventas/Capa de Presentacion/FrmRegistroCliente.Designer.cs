@@ -44,24 +44,29 @@
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(331, 106);
+            this.button2.BackColor = System.Drawing.Color.LightCyan;
+            this.button2.BackgroundImage = global::Capa_de_Presentacion.Properties.Resources.salir;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(331, 220);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(87, 27);
             this.button2.TabIndex = 5;
-            this.button2.Text = "&Salir";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(331, 45);
+            this.button1.BackColor = System.Drawing.Color.LightCyan;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Blue;
+            this.button1.Location = new System.Drawing.Point(331, 160);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(87, 27);
+            this.button1.Size = new System.Drawing.Size(87, 36);
             this.button1.TabIndex = 4;
             this.button1.Text = "&Grabar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label5
@@ -124,6 +129,7 @@
             // 
             // txtDni
             // 
+            this.txtDni.BackColor = System.Drawing.Color.White;
             this.txtDni.Location = new System.Drawing.Point(14, 24);
             this.txtDni.MaxLength = 8;
             this.txtDni.Name = "txtDni";
@@ -154,6 +160,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightCyan;
+            this.BackgroundImage = global::Capa_de_Presentacion.Properties.Resources.FORCADELL1;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(428, 258);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -169,11 +178,11 @@
             this.Controls.Add(this.txtApellidos);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
             this.Name = "FrmRegistroCliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmMantenimiento de Clientes";
+            this.Text = "Mantenimiento de Clientes";
             this.Activated += new System.EventHandler(this.FrmRegistroCliente_Activated);
             this.Load += new System.EventHandler(this.FrmRegistroCliente_Load);
             this.ResumeLayout(false);

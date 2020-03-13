@@ -248,6 +248,11 @@
     <Content Include="Resources\1button.png" />
     <Content Include="Resources\1button_click.png" />
     <Content Include="Resources\1button_hover.png" />
+    <None Include="Resources\salir.jpg" />
+    <None Include="Resources\bienvenidoCarita.jpg" />
+    <None Include="Resources\bienvenidos.png" />
+    <None Include="Resources\ploter3.jpg" />
+    <None Include="Resources\DISKGUARDAR.jpg" />
     <None Include="Resources\imprentatoner.png" />
     <None Include="Resources\FORCADELL1.jpg" />
     <None Include="Resources\FORCADELL4.jpg" />

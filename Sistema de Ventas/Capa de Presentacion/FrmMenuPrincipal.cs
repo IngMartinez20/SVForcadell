@@ -77,5 +77,16 @@ namespace Capa_de_Presentacion
         {
             Application.Exit();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            //DateTime hoy = DateTime.Now;
+            //hoy.ToShortDateString();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
